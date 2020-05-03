@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Responsive portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://JFaarinen@bitbucket.org/JFaarinen/front_end_2020.git"
+  },
+  "author": "Juho Faarinen",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/JFaarinen/front_end_2020#readme",
+  "dependencies": {
+    "node-sass": "^4.14.0"
+  }
+}
