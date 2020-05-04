@@ -1,16 +1,16 @@
 {
-  "name": "portfolio",
+  "name": "front_end_2020",
   "version": "1.0.0",
-  "description": "Responsive portfolio",
+  "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w dist/scss/ -o dist/css/ --recursive"
   },
   "repository": {
     "type": "git",
     "url": "git+https://JFaarinen@bitbucket.org/JFaarinen/front_end_2020.git"
   },
-  "author": "Juho Faarinen",
+  "author": "JF",
   "license": "ISC",
   "homepage": "https://bitbucket.org/JFaarinen/front_end_2020#readme",
   "dependencies": {
