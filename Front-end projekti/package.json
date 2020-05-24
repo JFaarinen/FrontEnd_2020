@@ -1,0 +1,16 @@
+{
+  "name": "front_end_project",
+  "version": "1.0.0",
+  "description": "Front end course project",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o hahmo/css --recursive",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+    "watch:sass": "nodemon -e scss -x 'npm run compile:sass'"
+  },
+  "author": "Juho Faarinen",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
